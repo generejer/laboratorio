@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Gestión de Usuarios</title>
+</head>
+<body>
+<h1>API Local - Usuarios</h1>
+
+<button onclick="listarUsuarios()">Listar usuarios</button>
+<button onclick="agregarUsuario()">Agregar usuario</button>
+<button onclick="eliminarUsuario()">Eliminar usuario</button>
+
+<script type="module">
+    import { listUsers, addUser, delUser } from 'api.js';
+
+    window.listarUsuarios = () => listUsers();
+    window.agregarUsuario = () => addUser("Ana", "López", "ana@example.com");
+    window.eliminarUsuario = () => delUser(1);
+</script>
+</body>
+</html>

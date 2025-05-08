@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lab DOM</title>
+</head>
+<body>
+
+<p id="my-paragraph">This is a paragraph.</p>
+<button onclick="changeStyle()">Change Paragraph Style</button>
+
+<form onsubmit="getNames(); return false;">
+    <input id="first-name" placeholder="First Name">
+    <input id="last-name" placeholder="Last Name">
+    <button type="submit">Print Names</button>
+</form>
+
+<a href="https://example.com/1">Link 1</a>
+<a href="https://example.com/2">Link 2</a>
+<button onclick="showLinksInfo()">Show Links Info</button>
+
+<section id="container">Original text</section>
+
+<ul>
+    <li class="first">One</li>
+    <li class="second">Two</li>
+    <li class="third">Three</li>
+</ul>
+
+<ol>
+    <li class="third">Inside OL</li>
+</ol>
+
+<div class="footer">Footer</div>
+<button onclick="extraTasks()">Run Extra Tasks</button>
+
+<script src="index.js"></script>
+</body>
+</html>
