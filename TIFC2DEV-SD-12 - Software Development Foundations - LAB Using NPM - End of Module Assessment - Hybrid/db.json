@@ -1,0 +1,8 @@
+{
+    "users": [
+    { "id": 1, 
+    "first_name": "Fernanda", 
+    "last_name": "Ramos", 
+    "email": "fer@gmail.com" }
+    ]
+}

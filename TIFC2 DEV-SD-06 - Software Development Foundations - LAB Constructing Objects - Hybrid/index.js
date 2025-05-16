@@ -1,7 +1,5 @@
-// DO NOT MODIFY THIS FILE!
 
-// Your 7 tasks are located in separate files.
-// Open task1.js to begin.
+
 
 let task;
 let args;
